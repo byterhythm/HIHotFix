@@ -1,0 +1,3 @@
+include ':fix'
+include ':app'
+rootProject.name = "HiHotFix"
