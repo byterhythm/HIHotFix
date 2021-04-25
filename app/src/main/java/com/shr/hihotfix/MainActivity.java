@@ -1,9 +1,9 @@
 package com.shr.hihotfix;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,4 +16,7 @@ public class MainActivity extends AppCompatActivity {
     public void createBug(View view) {
         new Test().test(this);
     }
+
+
+
 }
